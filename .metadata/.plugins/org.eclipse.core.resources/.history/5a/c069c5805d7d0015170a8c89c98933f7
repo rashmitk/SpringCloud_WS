@@ -1,0 +1,18 @@
+---
+spring:
+  application:
+    name: PingService
+  cloud:
+    config:
+      uri: http://localhost:8888
+      enabled: true
+      discovery:
+        enabled: true
+        serviceId: SimpleApp1
+
+eureka:
+  instance:
+    nonSecurePort: ${server.port:8080}
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/

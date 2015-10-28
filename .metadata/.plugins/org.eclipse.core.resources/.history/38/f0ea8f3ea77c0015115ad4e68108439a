@@ -1,0 +1,12 @@
+spring:
+  profiles: es3
+server:
+  port: 8503  
+eureka:
+  instance:
+    hostname: eurekaserver-3 
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://rashmitr:8503/eureka/    

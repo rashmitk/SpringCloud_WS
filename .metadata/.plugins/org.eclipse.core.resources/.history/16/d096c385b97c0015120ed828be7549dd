@@ -1,0 +1,18 @@
+server:
+  port: 8501
+ 
+eureka:
+  instance:
+    hostname: eurekaserver-1 
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://rashmitr:8501/eureka/
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+
+logging:
+  level:
+    com.netflix: 'WARN'
+    org.springframework.cloud: 'WARN'

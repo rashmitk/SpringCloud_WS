@@ -1,0 +1,15 @@
+INDEX VERSION 1.127+C:\SpringCloud_WS\.metadata\.plugins\org.eclipse.jdt.core
+3024945932.index
+1085199207.index
+3651633885.index
+1249903622.index
+1308298265.index
+2063811878.index
+3094780665.index
+3335624855.index
+2965405630.index
+1984163378.index
+2330551629.index
+3706542937.index
+2690025211.index
+933880817.index

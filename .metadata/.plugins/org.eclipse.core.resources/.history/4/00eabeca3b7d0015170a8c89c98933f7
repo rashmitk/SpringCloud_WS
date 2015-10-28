@@ -1,0 +1,10 @@
+---
+# application.yml
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:/config, https://github.com/rashmitk/spring_cloud_config_repo.git
+server:
+  port: 8888

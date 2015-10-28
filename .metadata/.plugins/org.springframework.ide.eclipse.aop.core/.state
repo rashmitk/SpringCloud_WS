@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="eurekaserver-1"/>
+<aop-project name="eurekaserver-2"/>
+<aop-project name="eurekaserver-3"/>
+</aop-reference-model>

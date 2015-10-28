@@ -1,0 +1,11 @@
+spring:
+  profiles: master
+server:
+  port: 8501  
+eureka:
+  instance:
+    hostname: eurekaserver-1 
+  client:
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://rashmitr:8501/eureka/    

@@ -1,0 +1,4 @@
+---
+# sample-ping.yml
+send:
+  message: Ping_FromOuterConfig

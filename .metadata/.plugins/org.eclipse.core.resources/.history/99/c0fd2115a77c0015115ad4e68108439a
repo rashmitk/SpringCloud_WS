@@ -1,0 +1,11 @@
+spring:
+  profiles: slave1
+server:
+  port: 8502
+eureka:
+  instance:
+    hostname: eurekaserver-2 
+  client:
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://rashmitr:8502/eureka/    

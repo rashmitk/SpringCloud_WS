@@ -1,0 +1,10 @@
+package com.example.controller;
+
+@RestController
+public class PingController {
+
+    @RequestMapping("/dispatch")
+    public MessageAcknowledgement sendMessage(@RequestBody String message) {
+        return "from_PingController"
+    }
+}

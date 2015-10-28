@@ -1,0 +1,14 @@
+package com.example.controller;
+
+@RestController
+public class PingController {
+
+    @Autowired
+    @Qualifier("hystrixPongClient")
+    private PongClient pongClient;
+
+    @RequestMapping("/dispatch")
+    public MessageAcknowledgement sendMessage(@RequestBody Message message) {
+        return this.pongClient.sendMessage(message);
+    }
+}
